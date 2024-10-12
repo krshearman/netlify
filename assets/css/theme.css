@@ -2028,3 +2028,7 @@ body.loaded:after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.mymodal-text {
+  color: #0b0b0b;
+}
