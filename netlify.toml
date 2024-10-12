@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/search"
+to = "https://www.google.com/"
+status = 200
+force = true
+headers = {X-From = "Kendall Shearman - Staff Support Engineer Candidate"}
