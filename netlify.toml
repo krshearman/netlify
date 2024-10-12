@@ -1,6 +1,6 @@
 [[redirects]]
-from = "/netlify/anything"
-to = "https://www.google.com/search?q=anything"
+from = "/netlify/something"
+to = "https://www.google.com/search?q=something"
 status = 200
 force = true
 headers = {X-From = "Kendall Shearman - Staff Support Engineer Candidate"}
