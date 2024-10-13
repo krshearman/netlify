@@ -24,7 +24,7 @@
 <!-- end Cursor -->
 
 <!-- Header -->
-<div class="header">
+<div class="header myheader">
 	<div class="container-fluid">
 		<div class="header-wrapper">
 			<!-- Header Logo -->
@@ -36,30 +36,6 @@
 				<a class="button button-sm button-dot me-2 me-lg-3" href="index.html">
 					<span data-text="Home">Home</span>
 				</a>
-<!--				&lt;!&ndash; Nav Menu Toggle &ndash;&gt;
-				<button id="nav-toggle" class="button button-sm button-dot button-white">
-					<span data-text="Menu">Menu</span>
-				</button>
-				&lt;!&ndash; Nav Menu Box &ndash;&gt;
-				<div class="nav-box">
-					<ul class="nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#about"><i class="bi bi-arrow-right"></i>About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#skills"><i class="bi bi-arrow-right"></i>Skills</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#certifications"><i class="bi bi-arrow-right"></i>Certifications</a>
-						</li>
-						&lt;!&ndash;<li class="nav-item">
-                            <a class="nav-link" href="#blog"><i class="bi bi-arrow-right"></i>Blog</a>
-                        </li>&ndash;&gt;
-						<li class="nav-item">
-							<a class="nav-link" href="#contact"><i class="bi bi-arrow-right"></i>Contact</a>
-						</li>
-					</ul>
-				</div>-->
 			</div><!-- end header-nav -->
 		</div><!-- end header-wrapper -->
 	</div><!-- end container -->
@@ -79,37 +55,6 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>-->
 						</div>
 					</div><!-- end row -->
-					<!--<div class="row g-4 mt-5">
-						<div class="col-12 col-md-6 col-lg-3">
-							<div class="fancy-box">
-								<h6 class="sm-heading mb-1">Services:</h6>
-								<ul class="list-inline-dot">
-									<li>List item</li>
-									<li>List item</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-3">
-							<div class="fancy-box">
-								<h6 class="sm-heading mb-1">Client:</h6>
-								<p>FlaTheme</p>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-3">
-							<div class="fancy-box">
-								<h6 class="sm-heading mb-1">Project link:</h6>
-								<a class="link-hover" href="#">
-									<span data-text="www.flatheme.net">www.flatheme.net</span>
-								</a>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-3">
-							<div class="fancy-box">
-								<h6 class="sm-heading mb-1">Duration:</h6>
-								<p>121 Hours</p>
-							</div>
-						</div>
-					</div>&lt;!&ndash; end row &ndash;&gt;-->
 				</div><!-- end container -->
 			</div>
 
@@ -132,15 +77,19 @@
 											Dev tools:<br>
 											<ul>
 												<li>JetBrains WebStorm</li>
-												<li><a href="https://elements.envato.com/mone-personal-portfolio-template-6EAGM2Q">Portfolio Template from Envato Elements</a></li>
+												<a href="https://elements.envato.com/mone-personal-portfolio-template-6EAGM2Q"><li>Portfolio Template from Envato Elements</li></a>
 												<li>HTML, CSS, SASS, JS</li>
 											</ul>
 											<br>
-											To set up the site, I used a pre-built template from Envato and JetBrains
-											WebStorm. I followed the instructions on Netlify to deploy.<br><br>
-											Challenge: I changed my mind about the portfolio template I wanted to use, and I simply
-											deleted the directory and redeployed by pushing to GitHub with the new
-											template I had selected. This caused a 128 error, which I solved with
+											To set up the site, I used a template from Envato and JetBrains
+											WebStorm for development. I followed the instructions on Netlify to deploy.
+											These were simple choices since I already subscribe to/own these products!
+											I specifically choose the template used because it wasn't overly complicated
+											to set up or alter.<br><br>
+											Challenge: At the beginning of the project, I changed my mind about the
+											portfolio template I wanted to use, and I simply deleted the directory and
+											redeployed by pushing to GitHub with the new template I had selected. This
+											caused a 128 error, which I solved with
 											<a href="https://docs.netlify.com/configure-builds/troubleshooting-tips/#build-fails-with-exit-status-128" target="_blank">this documentation</a>
 										</div>
 									</div>
@@ -372,7 +321,12 @@
 									<div class="row">
 										<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 											<h4>Answer:</h4>
-											<p>Answer here</p>
+											<p>I used netlify cli to test locally. Initially, I forgot to prepend the
+												netlify directory with a '.' in the endpoint URL, so I was getting 404.
+												I used <br> netlify functions:invoke hello <br>
+												in the terminal to test the function
+												and see the correct URL. <br><br>
+												Endpoint: <a href="https://sse-kendallshearman.netlify.app/.netlify/functions/hello" target="_blank">https://sse-kendallshearman.netlify.app/.netlify/functions/hello</a></p>
 										</div>
 									</div>
 									<img src="" class="d-block w-100" alt="">

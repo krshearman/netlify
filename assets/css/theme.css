@@ -2029,6 +2029,12 @@ body.loaded:after {
   -webkit-text-fill-color: transparent;
 }
 
-.mymodal-text {
-  color: #0b0b0b;
+.myheader {
+  position: absolute;
+  top: 0;
+}
+
+a:hover {
+  color: #7B13FFFF; /* Color on hover */
+  text-decoration: none;
 }
