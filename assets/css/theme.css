@@ -1546,7 +1546,7 @@ button.mfp-close:hover {
   width: 100%;
   height: 100%;
   border-radius: 0.5em;
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .header .header-wrapper .header-nav .nav-box.show {
@@ -2055,3 +2055,4 @@ a:hover {
   padding-left: 50px;
   padding-right: 50px;
 }
+
